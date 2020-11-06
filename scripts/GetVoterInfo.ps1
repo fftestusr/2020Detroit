@@ -1,5 +1,5 @@
-$inputFile = "detroit_index.txt"
-$outputFile = "detroit_outputfile.txt"
+$inputFile = "..\detroit_index.txt"
+$outputFile = "..\detroit_outputfile_ps.txt"
 $getInfoUri = "https://mvic.sos.state.mi.us/Voter/SearchByName"
 
 $inputData = Import-Csv -Path $inputFile

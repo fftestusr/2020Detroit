@@ -3,8 +3,8 @@ import csv
 import json
 import grequests
 
-inputFile = "C:\\Users\\kfang\\Downloads\\detroit_index.txt"
-outputFile = "C:\\Users\\kfang\\Downloads\\detroit_outputfile_py.txt"
+inputFile = "..\\detroit_index.txt"
+outputFile = "..\\detroit_outputfile_py.txt"
 getInfoUri = "https://mvic.sos.state.mi.us/Voter/SearchByName"
 
 monthArray = ["1","2","3","4","5","6","7","8","9","10","11","12"]
